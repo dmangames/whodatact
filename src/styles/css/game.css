@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30vh; }
+  .container .skewBtn {
+    width: 18vw;
+    height: 10vh;
+    min-width: 120px;
+    max-width: 180px;
+    max-height: 100px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: "Lato",sans-serif; }
+    .container .skewBtn:hover {
+      border: none;
+      color: white;
+      font-size: 28px;
+      transform: scale(1.1); }
+
+.answerBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .answerBox .skewBtn {
+    width: 18vw;
+    height: 10vh;
+    min-width: 120px;
+    max-width: 180px;
+    max-height: 100px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: "Lato",sans-serif; }
+    .answerBox .skewBtn:hover {
+      border: none;
+      color: white;
+      font-size: 28px;
+      transform: scale(1.1); }
+
+/* Buttons */
+.purple {
+  border: 2px solid #512DA8;
+  color: #512DA8; }
+  .purple:hover {
+    background-color: #512DA8;
+    transition: all 0.3s ease-in-out; }
+
+.blue {
+  border: 2px solid #1976D2;
+  color: #1976D2; }
+  .blue:hover {
+    background-color: #1976D2;
+    transition: all 0.3s ease-in-out; }
+
+.lorange {
+  border: 2px solid #FBC02D;
+  color: #FBC02D; }
+  .lorange:hover {
+    background-color: #FBC02D;
+    transition: all 0.3s ease-in-out; }
+
+.brick {
+  border: 2px solid #FF5722;
+  color: #FF5722; }
+  .brick:hover {
+    background-color: #FF5722;
+    transition: all 0.3s ease-in-out; }
+
+.row1 {
+  display: flex;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.row15 {
+  display: flex;
+  height: 8vh;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.row2 {
+  display: flex;
+  height: 60vh;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.row3 {
+  display: flex;
+  height: 22vh;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 60vh;
+  /* Should be removed. Only for demonstration */ }
+
+.game {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white; }
+
+.wda-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.checkmark {
+  height: 8vh; }
+
+/* Tooltip container */
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  max-width: 20vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: .5em;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
